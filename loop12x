@@ -1,0 +1,10 @@
+x = int(input("Multiply: "))
+y = int(input("Up to: "))
+i = 1
+
+while i <= y:
+    print(x * i)
+    i = i + 1
+
+for n in range(1, y + 1):
+    print(n * x)

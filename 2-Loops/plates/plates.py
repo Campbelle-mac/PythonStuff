@@ -42,14 +42,14 @@ def all_allowed(plate):
 
 
 def is_valid(plate):
+    if correct_lenght(plate) is False:
+        return False
     if two_letters(plate) is False:
         return False
-    if correct_lenght(plate) is False:
-        return True
     if num_pos(plate) is False:
-        return True
+        return False
     if all_allowed(plate) is False:
-        return True
+        return False
     return True
 
 

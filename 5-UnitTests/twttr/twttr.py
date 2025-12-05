@@ -11,7 +11,7 @@ def shorten(word):
             continue
         else:
             new_word = new_word + char
-    return f"Output: {new_word}"
+    return f"Output: {'#' + new_word}"
 
 
 if __name__ == "__main__":
